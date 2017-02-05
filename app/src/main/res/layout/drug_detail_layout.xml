@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="DRUG NAME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/drug_name"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:fontFamily="cursive"
+        android:textSize="30sp"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_below="@+id/drug_name"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="23dp"
+        android:id="@+id/thumb_nail"
+        android:adjustViewBounds="false" />
+
+    <!--<LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/thumb_nail"
+        android:layout_toEndOf="@+id/thumb_nail"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_alignTop="@+id/thumb_nail">-->
+
+        <TextView
+            android:text="Manufacturer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/manufacturer_label"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/thumb_nail"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/manufacturer"
+            android:layout_weight="0.40"
+            android:textAlignment="viewStart"
+            android:layout_centerInParent="true"
+            android:layout_gravity="start"
+            android:layout_below="@+id/manufacturer_label"
+            android:textStyle="normal|bold|italic" />
+        <TextView
+            android:text="Expiry_Date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:id="@+id/exp_label"
+            android:layout_below="@+id/manufacturer"
+            android:textSize="18sp" />
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/exp_date"
+            android:layout_weight="0.40"
+            android:layout_centerInParent="true"
+            android:textAlignment="viewStart"
+            android:layout_gravity="start"
+            android:layout_below="@+id/exp_label"
+            android:textStyle="normal|bold|italic" />
+    <!--</LinearLayout>-->
+    <TextView
+        android:text="Instructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/manufacturer_instruction"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/exp_date"
+        android:textSize="18sp" />
+    <TextView
+        android:text="drug_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/description"
+        android:layout_above="@+id/done_btn"
+        android:fontFamily="cursive"
+        android:lineSpacingExtra="8sp"
+        android:scrollbars="vertical"
+        android:layout_below="@+id/manufacturer_instruction" />
+
+
+    <Button
+        android:text="Done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/done_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

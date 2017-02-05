@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Pharmascan</string>
+    <string name="action_settings">Settings</string>
+    <string name="server">http://192.168.43.156:8000/api</string>
+</resources>

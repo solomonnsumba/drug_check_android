@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="pop-2.0">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/build/intermediates/exploded-aar/com.vistrav/pop/2.0/res" />
+      <root url="jar://$PROJECT_DIR$/build/intermediates/exploded-aar/com.vistrav/pop/2.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vistrav/pop/2.0/b0122117aa56a78634a82c047bfed26788474e94/pop-2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
